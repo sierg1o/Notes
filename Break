@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(void)
+{
+  int number = 1234;
+  int i = 0;
+  while(1)
+  {
+    printf("%d ", i);
+    printf("\n");
+    if (i == number)
+    {
+      printf("Hacked");
+      break;
+    }
+    i++;
+  }
+  return 0;
+}
