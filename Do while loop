@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<stdbool.h>
+
+int main(void)
+{
+  
+  
+  
+  
+  //initializaion, comparison, update
+  
+  // initializaition
+  //do
+  //{
+    //code
+    //update
+    
+  //}while( );
+  int input;
+  do
+  {
+    printf("Please enter a number 0 - 9: ");
+     
+    scanf("%d", &input);
+    
+  }while(input < 0 || input > 9);
+  return 0;
+}
